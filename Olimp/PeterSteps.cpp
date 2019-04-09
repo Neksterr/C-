@@ -2,13 +2,14 @@
 #include<string.h>
 #include<string>
 using namespace std;
-void main()
+int main()
 {
 
 	string turn;
+	
+	while(cin >> turn;)
+	{
 	string turn2;
-	cin >> turn;
-
 	int n = turn.size();
 
 	for (int i = 0; i < n; i++)
@@ -30,8 +31,9 @@ void main()
 
 
 	}
+	}
 	cout << turn2.size() << endl;
 	cout << turn2 << endl;
-
-	system("pause");
+	
+	return 0 ;
 }
