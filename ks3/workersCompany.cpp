@@ -115,7 +115,7 @@ public:
 	void printAll();
 	void allMale();
 	void nameMale();	//and salary
-	CCompany() { count = 0; countMale = 0; }// винаги трябва да има брояч в конструктора.
+	CCompany() { count = 0; countMale = 0; }
 };
 
 void CCompany::addWorker() // масив за добавяне на нов работник
@@ -145,7 +145,7 @@ void CCompany::allMale()
 	for (int i = 0; i < count; i++)
 	{
 
-		if (arrWorkers[i]->getGender() == true)    //проверява дали работника е мъж. масивът с указател към функцията getgender.
+		if (arrWorkers[i]->getGender() == true)    
 		{
 			arrWorkers[i]->getName();
 			arrWorkers[i]->getAge();
@@ -175,7 +175,7 @@ void CCompany::nameMale()
 
 }
 
-//правене на меню ЗАДЪЛЖИТЕЛНО във всяка програма
+
 
 int main()
 {
